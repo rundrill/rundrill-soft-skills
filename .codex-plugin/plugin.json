@@ -1,0 +1,34 @@
+{
+  "name": "rundrill-soft-skills",
+  "version": "0.1.0",
+  "description": "Soft-skills coach for engineers — communication, feedback, negotiation, async/cross-cultural writing, influence, and leadership, practised by reviewing flawed messages and role-playing the hard conversation. Drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "repository": "https://github.com/rundrill/rundrill-soft-skills",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": ["rundrill", "course", "coach", "drills", "soft-skills", "communication", "feedback", "negotiation", "influence", "leadership", "engineers"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "RunDrill Soft Skills for Engineers",
+    "shortDescription": "Soft-skills coach for engineers — drills, progress, mistake memory.",
+    "longDescription": "An interactive soft-skills coach for engineers: practise the communication that decides careers — asking questions, feedback, negotiation, async/cross-cultural writing, influence without authority, and leadership — by reviewing flawed messages and role-playing the hard conversation. Backed by the RunDrill MCP engine.",
+    "developerName": "RunDrill",
+    "category": "Education",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://rundrill.com",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "license": "CC-BY-NC-ND-4.0",
+    "defaultPrompt": [
+      "Start a soft-skills drill session.",
+      "Role-play a hard conversation with me.",
+      "Show my soft-skills progress."
+    ],
+    "brandColor": "#3B7AE0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "rundrill-soft-skills",
+  "version": "0.1.0",
+  "description": "Soft-skills coach for engineers — drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "mcpServers": {
+    "rundrill-soft-skills": {
+      "serverURL": "https://mcp.rundrill.com/skills/soft-skills"
+    }
+  }
+}
