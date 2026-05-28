@@ -98,10 +98,13 @@ minutes, by **probing judgment, not lecturing**:
    manager*. Use it to choose the starting rung. If `profile.native_language` is empty, also ask once
    which language to coach in and save it with `record {action: "profile_set", native_language:
    "<lang>"}` — shared across courses, ask only when empty.
-2. Ask 5–8 small judgment questions, one at a time — a one-line scenario and a short choice ("a PM
-   adds a feature mid-sprint — what's the first thing you say?"; "a teammate's estimate slipped and
-   the VP will ask you today — how do you open?"; "what's wrong with 'it'll be done Wednesday'?").
-   Climb while their instinct is sound; settle one rung below the first where they miss twice.
+2. Tell the learner up front this is a short placement (~6 quick questions, no studying needed), then
+   ask 5–8 small judgment questions **one at a time, announcing progress each time** ("question 2 of
+   ~6", "a couple left") so they always know how far in they are — a one-line scenario and a short
+   choice ("a PM adds a feature mid-sprint — what's the first thing you say?"; "a teammate's estimate
+   slipped and the VP will ask you today — how do you open?"; "what's wrong with 'it'll be done
+   Wednesday'?"). The count is approximate (it's adaptive): climb while their instinct is sound; settle
+   one rung below the first where they miss twice, and you can stop early once the rung is clear.
 3. Save with `record {action: "diagnose", subject: "soft-skills", level:
    "<foundations|feedback|communication|negotiation|async|influence|leadership>", weak: [], strong:
    []}` (leave `weak`/`strong` empty unless you have real topic ids — don't invent them).
