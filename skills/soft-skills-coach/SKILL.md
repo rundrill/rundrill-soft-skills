@@ -64,7 +64,7 @@ it.
 - `topics` — counts, the top weak topics, and `milestone` (N of M solid at the current rung). Show
   "weak" to the user as "to revisit".
 - `banner` — a pre-rendered dashboard (commit grid + per-rung progress bars + counters). Print it
-  verbatim inside a fenced code block — no language tag, so it renders in monospace; don't reformat it.
+  verbatim inside a ```` ```bash ```` fenced code block (renders in monospace); don't reformat it.
 - `misconceptions` — open mistakes and the most common named ones (e.g. *burying-the-answer*).
 - `profile` — `domains`/`interests`/`persona` (anchor scenarios in the learner's world);
   `native_language` (see **Language**); `habit_anchor` (a daily-routine cue). Shared across courses.
@@ -76,7 +76,7 @@ This course is **single-track** — there's no goal to choose. Everything is the
 
 If invoked with no argument, run `status`, then continue into the next right subcommand.
 
-**status** — call `status`. **Print `banner` verbatim inside one fenced code block — no language tag, so it renders in monospace** (the motivator: a
+**status** — call `status`. **Print `banner` verbatim inside one ```` ```bash ```` fenced code block (renders in monospace)** (the motivator: a
 commit grid + per-rung bars; never re-align or swap its glyphs). Below it, in plain words: the rung +
 `milestone` (e.g. "2 of 4 negotiation topics solid"), the streak (and, if
 `engagement.days_since_last_drill ≥ 2`, one neutral "last drill: N days ago" line — no guilt), and the
