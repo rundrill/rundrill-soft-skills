@@ -1,7 +1,7 @@
 {
   "name": "rundrill-soft-skills",
   "displayName": "RunDrill Soft Skills for Engineers",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Soft-skills coach for engineers — get better at the communication that decides careers: asking questions, giving and taking feedback, negotiating scope and estimates, async and cross-cultural writing, influence without authority, and leading. You practise by reviewing flawed messages and role-playing the hard conversation — the coach never writes it for you — with drills, progress, and mistake memory inside your AI agent.",
   "author": {
     "name": "RunDrill",
